@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens de Amor</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#" onclick="mostrarSecao('home')">Home</a></li>
+                <li><a href="#" onclick="mostrarSecao('sobre')">Sobre</a></li>
+                <li><a href="#" onclick="mostrarSecao('contato')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container" id="home">
+        <h1>As mais belas mensagens de amor 😍</h1>
+
+        <div id="mensagem"></div>
+        <div class="navegacao">
+            <button id="btnAnterior" onclick="paginaAnterior()">Anterior</button>
+            <button id="btnProxima" onclick="proximaPagina()">Próxima</button>
+        </div>
+    </div>
+
+    <div class="container" id="sobre" style="display: none;">
+        <h2>Sobre</h2>
+        <p>Sabe aqueles momentos em que palavras faltam para expressar o quanto você ama alguém? Isso acontece porque às vezes este sentimento é tão forte que apenas ações de amor serão suficientes.
+
+            Mas para te dar uma forcinha em uma declaração escrita, selecionamos as mais belas frases e mensagens de amor para você enviar para a sua cara metade. Se declare enviando uma dessas mensagens pelas redes sociais ou surpreenda o seu mozão escrevendo um belo cartão de amor inesperadamente. Confira e se inspire!</p>
+    </div>
+
+    <div class="container" id="contato" style="display: none;">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para mais informações.</p>
+    </div>
+
+    <script src="./java.js"></script>
+</body>
+</html>
